@@ -1,16 +1,17 @@
-<script>
+<script lang="ts">
+	import { base } from '$app/paths';
 </script>
 
 <main class="min-h-screen py-16 sm:py-16 lg:py-20">
 	<div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
 		<h2 class="mb-5 text-xl font-bold sm:text-2xl lg:text-3xl">Systems & Automation</h2>
 		<div class="bg-base-100 rounded-lg transition ease-in-out hover:scale-[102%] hover:shadow-xl">
-			<a href="/Projects/LLMoV2">
+			<a href="{base}/Projects/LLMoV2">
 				<div class="flex flex-col items-center gap-4 p-4 lg:flex-row">
 					<img
 						alt="Test"
 						class="max-w-full shrink-0 rounded-lg lg:max-w-52"
-						src="/assets/project02_thumbnail.webp"
+						src="{base}/assets/project02_thumbnail.webp"
 						loading="lazy"
 						decoding="async"
 					/>
@@ -32,12 +33,12 @@
 		</div>
 		<hr class="my-4 border-t-2 border-[#E1E1E1]" />
 		<div class="bg-base-100 rounded-lg transition ease-in-out hover:scale-[102%] hover:shadow-xl">
-			<a href="/Projects/LLMoV1">
+			<a href="{base}/Projects/LLMoV1">
 				<div class="flex flex-col items-center gap-4 p-4 lg:flex-row">
 					<img
 						alt="Test"
 						class="max-w-full shrink-0 rounded-lg lg:max-w-52"
-						src="/assets/project01_thumbnail.webp"
+						src="{base}/assets/project01_thumbnail.webp"
 						loading="lazy"
 						decoding="async"
 					/>
@@ -60,12 +61,12 @@
 
 		<h2 class="mt-10 mb-5 text-xl font-bold sm:text-2xl lg:text-3xl">Tools</h2>
 		<div class="bg-base-100 rounded-lg transition ease-in-out hover:scale-[102%] hover:shadow-xl">
-			<a href="/Projects/docuease">
+			<a href="{base}/Projects/docuease">
 				<div class="flex flex-col items-center gap-4 p-4 lg:flex-row">
 					<img
 						alt="Test"
 						class="max-w-full shrink-0 rounded-lg lg:max-w-52"
-						src="/assets/project03_thumbnail.webp"
+						src="{base}/assets/project03_thumbnail.webp"
 						loading="lazy"
 						decoding="async"
 					/>

@@ -1,4 +1,5 @@
-<script>
+<script lang="ts">
+	import { base } from '$app/paths';
 </script>
 
 <main class="min-h-screen py-16 sm:py-16 lg:py-20">
@@ -21,7 +22,7 @@
 
 			<div class="mt-12 overflow-hidden">
 				<img
-					src="/assets/llmov2software_hero.webp"
+					src="{base}/assets/llmov2software_hero.webp"
 					alt="LLMo Version 2 Interface"
 					class="mx-auto block h-auto w-full max-w-244"
 					loading="lazy"
@@ -36,7 +37,7 @@
 			<div class="mb-24 grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:gap-16">
 				<div class="relative overflow-hidden">
 					<img
-						src="/assets/llmov2_feature1.webp"
+						src="{base}/assets/llmov2_feature1.webp"
 						alt="LLMo Version 2 Interface"
 						class="h-auto w-full object-cover"
 						loading="lazy"
@@ -72,7 +73,7 @@
 				</div>
 				<div class="relative overflow-hidden">
 					<img
-						src="/assets/llmov2_feature2.webp"
+						src="{base}/assets/llmov2_feature2.webp"
 						alt="LLMo Version 2 Interface"
 						class="h-auto w-full object-cover"
 						loading="lazy"

@@ -1,4 +1,5 @@
-<script>
+<script lang="ts">
+	import { base } from '$app/paths';
 </script>
 
 <main class="min-h-screen py-16 sm:py-16 lg:py-20">

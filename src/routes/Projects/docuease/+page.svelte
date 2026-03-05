@@ -1,4 +1,5 @@
-<script>
+<script lang="ts">
+	import { base } from '$app/paths';
 </script>
 
 <main class="min-h-screen py-16 sm:py-16 lg:py-20">
@@ -19,7 +20,7 @@
 
 			<div class="mt-12 overflow-hidden">
 				<img
-					src="/assets/docuease_hero.webp"
+					src="{base}/assets/docuease_hero.webp"
 					alt="Document Generator Tool Interface"
 					class="mx-auto block h-auto w-full max-w-244"
 					loading="lazy"
@@ -34,7 +35,7 @@
 			<div class="mb-24 grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:gap-16">
 				<div class="relative overflow-hidden">
 					<img
-						src="/assets/docuease_feature1.webp"
+						src="{base}/assets/docuease_feature1.webp"
 						alt="Document Generator Tool Interface"
 						class="h-auto w-full object-cover"
 						loading="lazy"
@@ -70,7 +71,7 @@
 				</div>
 				<div class="relative overflow-hidden">
 					<img
-						src="/assets/docuease_feature2.webp"
+						src="{base}/assets/docuease_feature2.webp"
 						alt="Document Generator Tool Interface"
 						class="h-auto w-full object-cover"
 						loading="lazy"

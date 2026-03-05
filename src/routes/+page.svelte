@@ -1,6 +1,6 @@
 <!-- src/routes/+page.svelte (for SvelteKit) or src/App.svelte (for regular Svelte) -->
-<script>
-	// No imports needed! Just pure Tailwind classes
+<script lang="ts">
+	import { base } from '$app/paths';
 </script>
 
 <main class="min-h-screen py-16 sm:py-16 lg:py-20">
@@ -51,14 +51,14 @@
 			<!-- Projects Grid - 1 column mobile, 2 columns tablet+ -->
 			<div class="grid grid-cols-1 gap-6 sm:gap-8 md:grid-cols-2 lg:gap-10">
 				<!-- Project Card 1 -->
-				<a href="/Projects/LLMoV2">
+				<a href="{base}/Projects/LLMoV2">
 					<article
 						class="overflow-hidden rounded-xl border border-gray-200 bg-white
                         transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
 					>
 						<div class="aspect-2/1 bg-gray-100">
 							<img
-								src="/assets/project02_thumbnail.webp"
+								src="{base}/assets/project02_thumbnail.webp"
 								alt="Project"
 								class="h-full w-full object-cover"
 							/>
@@ -78,14 +78,14 @@
 					</article>
 				</a>
 				<!-- Project Card 2 -->
-				<a href="/Projects/LLMoV1">
+				<a href="{base}/Projects/LLMoV1">
 					<article
 						class="overflow-hidden rounded-xl border border-gray-200 bg-white
                         transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
 					>
 						<div class="aspect-2/1] bg-gray-100">
 							<img
-								src="/assets/project01_thumbnail.webp"
+								src="{base}/assets/project01_thumbnail.webp"
 								alt="Project"
 								class="h-full w-full object-cover"
 							/>
@@ -106,14 +106,14 @@
 				</a>
 
 				<!-- Project Card 3 -->
-				<a href="/Projects/docuease">
+				<a href="{base}/Projects/docuease">
 					<article
 						class="overflow-hidden rounded-xl border border-gray-200 bg-white
                         transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
 					>
 						<div class="aspect-2/1 bg-gray-100">
 							<img
-								src="/assets/project03_thumbnail.webp"
+								src="{base}/assets/project03_thumbnail.webp"
 								alt="Project"
 								class="h-full w-full object-cover"
 							/>

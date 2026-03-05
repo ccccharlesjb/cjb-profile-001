@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
 
 	let drawerOpen = $state(false);
 
@@ -62,17 +63,23 @@
 			alt="Profile"
 			width="140"
 			height="140"
-			src="/assets/profile_image.webp"
+			src="{base}/assets/profile_image.webp"
 		/>
 	</div>
 
 	<nav class="flex flex-col gap-2">
-		<a href="/" class="nav-link" class:active={$page.url.pathname === '/'}>Home</a>
-		<a href="/Projects" class="nav-link" class:active={$page.url.pathname === '/Projects'}
-			>Projects</a
+		<a href="{base}/" class="nav-link" class:active={$page.url.pathname === base + `/`}>Home</a>
+		<a
+			href="{base}/Projects"
+			class="nav-link"
+			class:active={$page.url.pathname === base + `/Projects`}>Projects</a
 		>
-		<a href="/CV" class="nav-link" class:active={$page.url.pathname === '/CV'}>CV</a>
-		<a href="/Contact" class="nav-link" class:active={$page.url.pathname === '/Contact'}>Contact</a>
+		<a href="{base}/CV" class="nav-link" class:active={$page.url.pathname === base + `/CV`}>CV</a>
+		<a
+			href="{base}/Contact"
+			class="nav-link"
+			class:active={$page.url.pathname === base + `/Contact`}>Contact</a
+		>
 	</nav>
 </div>
 
