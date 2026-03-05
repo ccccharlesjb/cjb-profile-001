@@ -19,8 +19,7 @@ const config = {
             strict: false
         }),
         paths: {
-            base: process.env.NODE_ENV === 'production' ? '/cjb-profile-001' : '',
-            relative: true
+            base: '/cjb-profile-001'
         },
 prerender: {
             handleHttpError: 'warn' // This changes "Error" to just a "Warning"
