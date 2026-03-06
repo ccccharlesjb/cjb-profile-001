@@ -37,7 +37,7 @@
 					href="mailto:charlesbelamide@yahoo.com"
 					class="inline-block rounded-lg border-2 border-[#2a545f] px-7 py-3.5 text-center
                  font-medium text-black transition-all duration-300 hover:-translate-y-0.5
-                 hover:bg-black hover:text-white"
+                 hover:bg-gray-800 hover:text-white"
 				>
 					Contact
 				</a>
