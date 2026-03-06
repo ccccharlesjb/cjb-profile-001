@@ -76,7 +76,7 @@
 		>
 		<a href="{base}/CV" class="nav-link" class:active={$page.url.pathname === base + `/CV`}>CV</a>
 		<a
-			href="{base}/Contact"
+			href="mailto:charlesbelamide@yahoo.com"
 			class="nav-link"
 			class:active={$page.url.pathname === base + `/Contact`}>Contact</a
 		>
