@@ -1,5 +1,5 @@
 import { mdsvex } from 'mdsvex';
-import adapter from '@sveltejs/adapter-static'; // <--- Check this line!
+import adapter from '@sveltejs/adapter-static'; 
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -19,10 +19,11 @@ const config = {
             strict: false
         }),
         paths: {
-            base: '/cjb-profile-001'
+            base: '/cjb-profile-001',
+            relative: true
         },
 prerender: {
-            handleHttpError: 'warn' // This changes "Error" to just a "Warning"
+            handleHttpError: 'warn' // 
         }
     }
 };
