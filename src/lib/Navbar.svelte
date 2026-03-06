@@ -34,7 +34,10 @@
 		</svg>
 	</button>
 
-	<a href="/" class="text-xl font-semibold transition-opacity hover:opacity-80">
+	<a
+		href="https://www.linkedin.com/in/cjb4000/"
+		class="text-xl font-semibold transition-opacity hover:opacity-80"
+	>
 		Charles Jethro Belamide ⚡️
 	</a>
 	<div class="w-10"></div>
