@@ -62,7 +62,7 @@
 
 	<div class="mb-8 flex flex-col items-center justify-center gap-4">
 		<img
-			class="rounded-full border-2 border-white/20"
+			class="rounded-full object-cover ring-1 ring-white/10 ring-inset"
 			alt="Profile"
 			width="140"
 			height="140"
