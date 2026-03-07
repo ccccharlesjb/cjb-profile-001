@@ -1,4 +1,4 @@
-import{a as t,f as a}from"../chunks/DPbPDepG.js";import"../chunks/0-K8fF4s.js";import"../chunks/EUMFvdck.js";var s=a(`<main class="min-h-screen py-16 sm:py-16 lg:py-20"><div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8"><h2 class="mb-5 text-xl font-bold sm:text-2xl lg:text-3xl">Profile</h2> <p class="mb-10 text-justify">Full-Stack Developer with 4+ years of specialized experience in Medical Robotics and a total
+import{a as t,f as a}from"../chunks/DPbPDepG.js";import"../chunks/0-K8fF4s.js";import"../chunks/DgClfiw6.js";var s=a(`<main class="min-h-screen py-16 sm:py-16 lg:py-20"><div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8"><h2 class="mb-5 text-xl font-bold sm:text-2xl lg:text-3xl">Profile</h2> <p class="mb-10 text-justify">Full-Stack Developer with 4+ years of specialized experience in Medical Robotics and a total
 			of 8+ years in the IT industry. Currently leading the development of mobile control systems
 			and industrial PLC migrations for medical devices at DLSU IBEHT. My expertise lies at the
 			intersection of hardware and software—bridging the gap between complex backend architectures
