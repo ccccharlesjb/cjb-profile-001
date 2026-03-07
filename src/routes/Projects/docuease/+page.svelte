@@ -57,7 +57,7 @@
 				</div>
 			</div>
 			<div class="mb-24 grid grid-cols-1 items-center gap-12 md:grid-cols-2 lg:gap-16">
-				<div>
+				<div class="order-2 md:order-1">
 					<h3 class="mb-6 text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
 						Templated Documents
 					</h3>
@@ -69,7 +69,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="relative overflow-hidden">
+				<div class="relative order-1 overflow-hidden md:order-2">
 					<img
 						src="{base}/assets/docuease_feature2.webp"
 						alt="Document Generator Tool Interface"
