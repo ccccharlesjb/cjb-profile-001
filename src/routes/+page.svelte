@@ -61,6 +61,8 @@
 								src="{base}/assets/project02_thumbnail.webp"
 								alt="Project"
 								class="h-full w-full object-cover"
+								loading="lazy"
+								decoding="async"
 							/>
 						</div>
 						<div class="p-6">
@@ -88,6 +90,8 @@
 								src="{base}/assets/project01_thumbnail.webp"
 								alt="Project"
 								class="h-full w-full object-cover"
+								loading="lazy"
+								decoding="async"
 							/>
 						</div>
 						<div class="p-6">
@@ -116,6 +120,8 @@
 								src="{base}/assets/project03_thumbnail.webp"
 								alt="Project"
 								class="h-full w-full object-cover"
+								loading="lazy"
+								decoding="async"
 							/>
 						</div>
 						<div class="p-6">

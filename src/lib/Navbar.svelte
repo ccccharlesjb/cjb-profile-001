@@ -67,6 +67,8 @@
 			width="140"
 			height="140"
 			src="{base}/assets/profile_image.webp"
+			loading="lazy"
+			decoding="async"
 		/>
 	</div>
 
